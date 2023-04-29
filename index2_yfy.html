@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>+PLUS</title>
     <link rel="stylesheet" href="css/bootstrap.css">
-    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;800&display=swap" rel="stylesheet">
@@ -51,37 +51,31 @@
     </nav>
 
     <div class="container-fluid text" style="margin-top: 85px">
-        <div class="row justify-content-center align-items-center">
-        
-            <div class="col-md-4">
-                <form>
-                    <input type="text" name="search" placeholder="Search.." size="80">
-                </form>
-            </div>
-        
-            <div class="col-md-4 text-end">
-                <ul class="nav bg-secondary">
-                    <li class="nav-item">
-                        <a class="nav-link bg-secondary text-white" aria-current="page" href="#">Project</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link bg-secondary text-white" href="#">People</a>
-                    </li>
-                    <div class="col-md-4">
-                        <div class="dropdown">
-                            <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Creative Fields
-                            </button>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">UI/UX</a></li>
-                                <li><a class="dropdown-item" href="#">Motion Graphic</a></li>
-                                <li><a class="dropdown-item" href="#">3D Modeling</a></li>
-                                <li><a class="dropdown-item" href="#">Illustration</a></li>
-                                <li><a class="dropdown-item" href="#">Photography</a></li>
-                            </ul>
-                        </div>
+        <div class="d-flex justify-content-center align-items-center border border-2 rounded-pill mx-2">
+            <form style="width: 100%;">
+                <input
+                    type="text"
+                    name="search"
+                    placeholder="Search"
+                    class="px-5 mx-2"
+                    id="search"
+                >
+            </form>
+            <div class="d-flex justify-content-evenly align-items-center bg-body-secondary border border-body-secondary rounded-pill py-2" style="width: 1000px;">
+                <a class="nav-link fw-semibold" aria-current="page" href="#">Project</a>
+                <a class="nav-link fw-semibold" href="#">People</a>
+                    <div class="dropdown">
+                        <button class="btn dropdown-toggle fw-semibold" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Creative Fields
+                        </button>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">UI/UX</a></li>
+                            <li><a class="dropdown-item" href="#">Motion Graphic</a></li>
+                            <li><a class="dropdown-item" href="#">3D Modeling</a></li>
+                            <li><a class="dropdown-item" href="#">Illustration</a></li>
+                            <li><a class="dropdown-item" href="#">Photography</a></li>
+                        </ul>
                     </div>
-                </ul>
             </div>
         </div>
     </div>
