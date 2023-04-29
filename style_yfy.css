@@ -22,7 +22,7 @@ body {
 
 /* Buttons */
 
-.btn {
+/* .btn {
     padding: 3px 10px;
     box-sizing: border-box;
     border: 1px solid #000000;
@@ -30,7 +30,7 @@ body {
     font-weight: 400;
     font-size: 16px;
     text-decoration: none;
-}
+} */
 
 /*nav */
 
@@ -52,4 +52,14 @@ ul.nav li a {
   justify-content: center;
   text-decoration: none;
   color: black;
+}
+
+#search {
+  width: 100%;
+  border: 0;
+  outline: 0;
+}
+
+#search:focus {
+  outline: 0;
 }
